@@ -33,9 +33,10 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mariadb://localhost:3306/reactspringheroku?useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: root
-    password:
+    #url: jdbc:mariadb://localhost:3306/reactspringheroku?useLegacyDatetimeCode=false&serverTimezone=UTC
+        url: jdbc:mariadb://eporqep6b4b8ql12.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/mgop6emjpt3i7sjs
+        username: hg4mzy8j8k78oh5j
+        password: zah2rqa12dhw0eik
     hikari:
       poolName: Hikari
       auto-commit: false
