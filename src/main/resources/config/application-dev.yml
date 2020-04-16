@@ -41,8 +41,8 @@ spring:
     serialization:
       indent-output: true
   datasource:
-  type: com.zaxxer.hikari.HikariDataSource
-  url: jdbc:mysql://eporqep6b4b8ql12.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/mgop6emjpt3i7sjs
+   url: jdbc:mariadb://eporqep6b4b8ql12.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/mgop6emjpt3i7sjs
+  type: com.mysql.jdbc.Driver
   username: hg4mzy8j8k78oh5j
   password: zah2rqa12dhw0eik
   hikari:
