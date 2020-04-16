@@ -18,6 +18,7 @@ logging:
     ROOT: DEBUG
     io.github.jhipster: DEBUG
     fi.ilkka.demo.heroku: DEBUG
+    fi.ilkka.demo.heroku.repository: TRACE
 
 management:
   health:
